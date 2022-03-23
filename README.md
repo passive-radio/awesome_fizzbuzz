@@ -1,10 +1,11 @@
 # awesome_fizzbuzz
-awesome fizz buzz is a mini library of codes for programming learners written in several programming languages in which run and play Fizz bizz game.
+awesome fizz buzz is a mini library of codes for programming learners written in several programming languages in which you can run and play Fizz bizz game.
 
 In this repository, you can find
 - [Python package](python/)
 - [Rust package](rust/)
 - [C++ package](cpp/)
+- [Go package](go/)
 
 If you are not familiar with fizz buzz, the game rules are easy peasy and described below.
 
