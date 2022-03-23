@@ -1,0 +1,11 @@
+2022-03-23 19:04:53,076 __main__:88 enter_pressed [INFO]: Enter
+2022-03-23 19:04:55,406 __main__:62 play_fizzbuzz [INFO]: You win!
+2022-03-23 19:04:55,406 __main__:63 play_fizzbuzz [INFO]: Clear time[s]: 2.3305063247680664
+2022-03-23 19:05:22,675 __main__:88 enter_pressed [INFO]: Enter
+2022-03-23 19:05:29,982 __main__:59 play_fizzbuzz [WARNING]: You missed!
+2022-03-23 19:05:34,171 __main__:88 enter_pressed [INFO]: Enter
+2022-03-23 19:05:45,412 __main__:62 play_fizzbuzz [INFO]: You win!
+2022-03-23 19:05:45,412 __main__:63 play_fizzbuzz [INFO]: Clear time[s]: 11.225517272949219
+2022-03-23 19:06:26,469 __main__:88 enter_pressed [INFO]: Enter
+2022-03-23 19:06:38,400 __main__:62 play_fizzbuzz [INFO]: You win!
+2022-03-23 19:06:38,413 __main__:63 play_fizzbuzz [INFO]: Clear time[s]: 11.930944919586182, turns: 12
