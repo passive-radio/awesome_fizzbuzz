@@ -1,6 +1,6 @@
 '''
 awwesome fizzbuzz  
-# Python code
+# Python codes
 '''
 
 from logging import getLogger, config

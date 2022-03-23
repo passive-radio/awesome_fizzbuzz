@@ -1,3 +1,7 @@
+//! awesome fizzbuzz
+//! # Rust codes
+//! 
+
 use std::time::Duration;
 use std::time::Instant;
 
@@ -96,7 +100,7 @@ fn main() {
     // do_fizzbuzz(16,"fizz");
 
     let mut line = String::new();
-    println!("Press Enter to stasrt!");
+    println!("Press Enter to start!");
     let b1: i32 = std::io::stdin().read_line(&mut line).unwrap() as i32;
 
     if b1 > 0{
