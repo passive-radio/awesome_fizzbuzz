@@ -9,3 +9,9 @@
 2022-03-23 19:06:26,469 __main__:88 enter_pressed [INFO]: Enter
 2022-03-23 19:06:38,400 __main__:62 play_fizzbuzz [INFO]: You win!
 2022-03-23 19:06:38,413 __main__:63 play_fizzbuzz [INFO]: Clear time[s]: 11.930944919586182, turns: 12
+2022-03-24 18:43:51,249 __main__:88 enter_pressed [INFO]: Enter
+2022-03-24 18:44:04,237 __main__:118 play_san [INFO]: You win!
+2022-03-24 18:44:04,238 __main__:119 play_san [INFO]: Clear time[s]: 12.979188442230225, turns: 12
+2022-03-24 19:22:07,077 __main__:88 enter_pressed [INFO]: Enter
+2022-03-24 19:22:16,881 __main__:118 play_san [INFO]: You win!
+2022-03-24 19:22:16,881 __main__:119 play_san [INFO]: Clear time[s]: 9.80146837234497, turns: 12

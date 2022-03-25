@@ -1,9 +1,11 @@
 //! awesome fizzbuzz
 //! # Rust codes
-//! 
-
+use std::fs::File;
 use std::time::Duration;
 use std::time::Instant;
+
+use log::{error, info, warn};
+use log4rs;
 
 fn some_kind_of_uppercase_first_letter(s: &str) -> String {
     let mut c = s.chars();
@@ -77,13 +79,15 @@ fn play_fizzbuzz(turns: i32, type_fb: &str) -> bool{
         }
         if i % 2 == 0 && (&ans != &kwd && &ans_c != &kwd){
             println!("You missed!");
+            log::info!("You missed!");
             return false
         }
     }
     let end = Instant::now();
     println!("You win!");
     println!("Clear time[s]: {:?}, turns: {}", end-start, turns.to_string());
-
+    log::info!("You win!");
+    log::info!("Clear time[s]: {:?}, turns: {}", end-start, turns.to_string());
     true
 }
 
@@ -97,13 +101,15 @@ fn return_input() -> String{
 
 fn main() {
 
-    // do_fizzbuzz(16,"fizz");
+    log4rs::init_file("config/log4rs.yaml", Default::default()).unwrap();
 
-    let mut line = String::new();
+    // do_fizzbuzz(16,"fizz");
     println!("Press Enter to start!");
+    let mut line = String::new();
     let b1: i32 = std::io::stdin().read_line(&mut line).unwrap() as i32;
 
     if b1 > 0{
-        play_fizzbuzz(16, "fizz");
+        log::info!("Enter pressed!");
+        play_fizzbuzz(12, "fizz");
     }
 }

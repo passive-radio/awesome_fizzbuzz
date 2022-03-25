@@ -89,7 +89,7 @@ def enter_pressed():
         return True
     else:
         return False
-    
+
 if __name__ =="__main__":
     # do_fizzbuzz(16, type="fizz")
-    play_fizzbuzz(12, type="fizz")
+    play_fizzbuzz(12, type="san")
